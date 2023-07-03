@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item>
+        <shape android:shape="oval">
+            <stroke android:color="#FFFFFF"
+                android:width="2dp"
+                />  <!-- 设置圆形的颜色 -->
+            <corners android:radius="100dp"/>  <!-- 设置半径，使其成为圆形 -->
+        </shape>
+    </item>
+
+    <!-- 覆盖上面白色圆形的小一些的圆形 -->
+    <item android:top="6dp" android:right="6dp" android:bottom="6dp" android:left="6dp">
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF"/>  <!-- 设置圆形的颜色 -->
+            <size android:width="100dp" android:height="100dp"/>  <!-- 设置尺寸 -->
+        </shape>
+    </item>
+</layer-list>

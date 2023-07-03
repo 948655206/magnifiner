@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="imageSize">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:background">@color/btn_background</item>
+    </style>
+
+    <style name="imageSize.imageLeft" parent="imageSize">
+        <item name="android:layout_marginLeft">24dp</item>
+    </style>
+
+    <style name="imageRight" parent="imageSize">
+        <item name="android:layout_marginRight">24dp</item>
+    </style>
+
+    <style name="title_Tv">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="bottom_Tv">
+        <item name="android:textColor">#737373</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+
+    <style name="underline_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:background">@color/qmui_config_color_gray_1</item>
+    </style>
+
+    <style name="top_image_style">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:elevation">1dp</item>
+    </style>
+
+    <style name="top_image_style.left">
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginTop">14dp</item>
+    </style>
+
+    <style name="top_image_style.right">
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:layout_marginTop">14dp</item>
+    </style>
+
+    <style name="switch_style">
+        <item name="colorSurface">@color/qmui_config_color_red</item>
+        <item name="colorOnSurface">@color/white</item>
+
+    </style>
+</resources>

@@ -1,2 +1,2 @@
-# magnifiner
-放大镜123
+# magnifier
+放大镜

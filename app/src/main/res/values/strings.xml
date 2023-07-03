@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">myapplicationProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save_to_album">保存捕获到的照片至相册</string>
+    <string name="take_photo">捕获当前照片</string>
+    <string name="toggle_flashlight">打开手机相册</string>
+    <string name="illustrate_flashlight">在光线较暗的情况下，灯会自动打开</string>
+    <string name="illustrate_camera">设置相机声音是否开启</string>
+    <string name="title_guide">使用教程指南</string>
+    <string name="illustrate_first">打开和关闭手电筒</string>
+    <string name="illustrate_fourth">切换前后摄像头</string>
+</resources>
